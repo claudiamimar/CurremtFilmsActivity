@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="box">
+        <item>Buscar</item>
+        <item>Cortar</item>
+        <item>Copiar</item>
+        <item>Eliminar</item>
+        <item>Compartir</item>
+    </string-array>
+</resources>

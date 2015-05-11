@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CurrentFilmsActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:orderInCategory="2"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_search"
+        android:orderInCategory="1"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/ic_add"
+        android:orderInCategory="3"
+        android:title="@string/action_add"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="4"
+        android:title="@string/share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/language"
+        android:orderInCategory="5"
+        android:title="@string/language"
+        app:showAsAction="never" />
+
+</menu>

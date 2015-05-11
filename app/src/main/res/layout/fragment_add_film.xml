@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@drawable/degraded"
+    tools:context="com.uniquindio.electiva_android.curremtfilmsactivity.fragment.AddFilmFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fill_title" />
+
+    <EditText
+        android:id="@+id/cmp_add_title"
+        style="@style/EditTextFilms"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fill_year" />
+
+    <EditText
+        android:id="@+id/cmp_add_year"
+        android:inputType="number"
+        style="@style/EditTextFilms" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fill_url_trailer" />
+
+    <EditText
+        android:id="@+id/cmp_add_url_trailer"
+        android:inputType="textUri"
+        style="@style/EditTextFilms" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fill_description" />
+
+    <EditText
+        android:id="@+id/cmp_add_description"
+        style="@style/EditTextFilms"
+        android:maxLines="30"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fill_accept"
+        android:id="@+id/btn_add_fiml"
+        android:layout_gravity="right" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_films">
+        <item>Interestelar</item>
+        <item>Dracula</item>
+        <item>Dragon Ball Z</item>
+        <item>Birdman</item>
+        <item>Pacific Rim</item>
+        <item>Avengers: Age of Ultron</item>
+    </string-array>
+</resources>

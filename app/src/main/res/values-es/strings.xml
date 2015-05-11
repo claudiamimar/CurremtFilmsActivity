@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Películas actuales</string>
+    <string name="app_recommended">Recomendada</string>
+    <string name="action_settings">Configuración</string>
+    <string name="add_films">Debe adicionar películas</string>
+    <string name="title_films">Titulo</string>
+    <string name="year_films">Año</string>
+    <string name="header_films">Lista de películas</string>
+    <string name="go_to_trailer">Ir al trailer</string>
+    <string name="delete">Eliminar</string>
+    <string name="share">Compartir</string>
+    <string name="language">Cambiar lenguaje</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_add">Agregar película</string>
+    <string name="title_add_film">Agregar película</string>
+    <string name="add_fill_title">Titulo:</string>
+    <string name="add_fill_year">Año:</string>
+    <string name="add_fill_url_trailer">URL trailer:</string>
+    <string name="add_fill_description">Descripción:</string>
+    <string name="add_fill_accept">Aceptar:</string>
+    <string name="add_fill_title_empty">Verifique el titulo ingresado</string>
+    <string name="add_fill_year_empty">Verifique el año ingresado</string>
+    <string name="add_fill_url_empty">Verifique la url ingresado</string>
+    <string name="add_fill_description_empty">Verifique la descripción ingresado</string>
+    <string name="title_activity_detail_film">Detalle de película</string>
+
+</resources>

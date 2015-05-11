@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uniquindio.electiva_android.curremtfilmsactivity.fragment.ListFimlsFragment">
+
+    <ListView
+        android:id="@+id/list_films"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/txt_add_film"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="@string/add_films"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</FrameLayout>
